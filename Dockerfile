@@ -13,7 +13,7 @@ COPY . .
 
 RUN mvn clean install
 
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk-jammy
 
 EXPOSE 8080
 
